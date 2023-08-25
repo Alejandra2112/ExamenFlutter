@@ -6,6 +6,7 @@ import 'package:salud_flutter/RutinasEjercicio.dart';
 import 'package:salud_flutter/contacto.dart';
 import 'package:salud_flutter/inicio.dart';
 import 'package:salud_flutter/presionArterial.dart';
+import 'package:salud_flutter/themes/appThemes.dart';
 
 void main() {
   runApp(const MainApp());
@@ -19,7 +20,7 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Inicio(),
-      // theme: AppTheme.darkTheme, 
+      theme: AppTheme.darkTheme, 
     );
   }
 }
